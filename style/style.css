@@ -8,9 +8,9 @@ body{
     font-family: 'Merriweather', serif;
 }
 .container{
-    width: 82px;
+    width: 82%;
     max-width: 1300px;
-    height: 600;
+    height: 600px;
     margin: 0 auto;
 }
 /* primay style complete */
@@ -112,9 +112,16 @@ font-weight: 400;
 line-height: 25px;
 padding: 20px 0;
 }
-.wel-banner-text #wel-banner-button{
-    direction: none;
-
+.wel-banner-text button{
+    border: none;
+    color: #FFF;
+background-color: #1e0505;
+text-align: center;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+border-radius: 15px;
 }
 .container-teimg{
     display: flex;
@@ -140,3 +147,51 @@ padding: 20px 0;
     width: 50%;
     margin: 70px 0px;
 }
+/* wellcome section style end */
+/* date contant */
+
+.date{
+    
+    background-color: rgb(255, 234, 234);
+    width: 82%;
+    max-width: 1300px;
+    height: 600px;
+    margin: 0% auto;
+}
+.date .date-text{
+    padding-top: 200px;
+}
+.date .date-title{
+    text-align: center;
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+
+}
+.date .date-title span{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+
+}
+button{
+    text-align: center;
+    
+padding: 16px 32px;
+margin-top: 40px;
+color: #FFF;
+border-radius: 8px;
+background: #F00;
+font-size: 20px;
+font-weight: 700;
+}
+
+
