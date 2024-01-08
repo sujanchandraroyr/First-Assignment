@@ -23,6 +23,7 @@ body{
     background-position: center;
     margin-top: 40px;
     margin-bottom: 100px;
+    object-fit: cover;
 }
 .banner-text{
     
@@ -200,7 +201,7 @@ font-weight: 700;
 .portfolio{
     width: 82%;
     max-width: 1300px;
-    height: 600px;
+    
     margin: 0% auto;
 }
 .margin{
@@ -235,6 +236,9 @@ line-height: 32px;
 .portfolio-image{
     margin-top: 40px;
 }
+..portfolio-image-line1{
+    display: flex;
+}
 .portfolio-image-line1 img{
     width: 424px;
     height: 450px;
@@ -254,3 +258,51 @@ line-height: 32px;
     
 }
 /* portfolio section end */
+
+/* Subscriber section start */
+.subscriber{
+    background-color: rgb(255, 234, 234);
+    width: 82%;
+    max-width: 1300px;
+    height: 600px;
+    margin: 0% auto;
+}
+.subscriber .subscriber-content{
+    text-align: center;
+    padding-top: 100px;
+}
+.subscriber-content .title{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+padding-top: 15px;
+}
+.subscriber-content .title-info{
+    color: rgba(7, 2, 17, 0.60);
+/* text-align: center; */
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+padding-top: 15px;
+}
+.subscriber-content input[type="text"]{
+    width: 648px;
+height: 72px;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+/* border-radius: 50px; */
+background: #FFF;
+border: none;
+}
+.subscriber-content button[type="submit"]{
+    width: 210px;
+height: 72px;
+    border-radius: 0px 50px 50px 0px;
+background: #F00;
+border: none;
+}
